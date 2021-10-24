@@ -1,0 +1,101 @@
+/* Nav */
+.LOGO-Nav{
+    font-size: 1.1em;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+.LOGO-Nav:hover{
+    color: brown;
+    font-weight: bolder;
+    transition: .3s;
+}
+.BT-NAV{
+    background: rgb(124, 25, 25);
+}
+.A-CSS:hover{
+    color: rgb(185, 39, 39);
+    transition: .3s;  
+}
+
+@media only screen and (max-width:1024px){
+    .LOGO-Nav{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+.carousel-item{
+    height: 30em;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.664);
+}
+.Button{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.356);
+}
+.Button:hover{
+    background-color: rgba(255, 0, 0, 0.603);
+}
+.Nav{
+    margin-top: 1em;
+}
+.Ul-Nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(169, 169, 169, 0.24);
+}
+li .A-nav {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+.card-header{
+    color: aliceblue;
+    background-color: rgb(212, 48, 48);
+}
+li .A-nav:hover{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    text-indent: .2em;
+}
+p{
+    clear: both;
+    text-indent: 1em;
+}
+.Mini-Head{
+    font-weight: bolder;
+    margin-left: 1em;
+}
+h5{
+    font-weight: bold;
+}
+.PIC-paragrap{
+    float: right;
+    width: 30em;
+}
+@media only screen and (max-width:992px){
+    .PIC-paragrap{
+        display: none;
+    }
+}
+
+/* footer */
+.LI-footer{
+    padding: .2em;
+}
+.LI-footer .A-footer {
+    color: white;
+    text-decoration: none;
+}
+.LI-footer .A-footer:hover{
+    color: rgb(223, 51, 51);
+    transition: .7s;
+}
